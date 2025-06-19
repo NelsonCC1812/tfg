@@ -4,5 +4,9 @@
     "bvd",
     "accionista__percent_total",
     "accionista__percent_directo",
-    "accionista__tipo"
+    "accionista__tipo",
+    "activo_no_corriente_YYYY",
+    "activo_corriente_YYYY",
+    "pasivo_corriente_YYYY",
+    "pasivo_no_corriente_YYYY",
 ]

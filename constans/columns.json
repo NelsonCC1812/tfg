@@ -33,7 +33,7 @@
         "importe_neto_de_la_cifra_de_negocios_YYYY": "Importe neto de la cifra de negocios\nEUR\n[YYYY]",
         "resultado_de_explotacion_YYYY": "Resultado de explotación (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14)\nEUR\n[YYYY]",
         "resultado_del_ejercicio_YYYY": "Resultado del ejercicio (A4 + 25)\nEUR\n[YYYY]",
-        "activo_corriente": "Activo corriente\nEUR\n[YYYY]",
+        "activo_corriente_YYYY": "Activo corriente\nEUR\n[YYYY]",
         "calle": "Calle",
         "direccion_marketeable": "Dirección marketeable",
         "codigo_postal": "Código postal",
@@ -177,7 +177,16 @@
         "ganancias_antes_de_impuestos_e_intereses_div_activos_total_YYYY": "ganancias antes de impuestos e intereses/activos total [YYYY]",
         "capitalizacion_bursatil_div_pasivo_total_YYYY": "capitalización bursátil/pasivo total [YYYY]",
         "ventas_div_activos_total_YYYY": "ventas/activo total [YYYY]",
-        "z_YYYY": "Z [YYYY]"
+        "z_YYYY": "Z [YYYY]",
+        "total_activo_YYYY": "Total Activo\nEUR\n[YYYY]",
+        "TA_YYYY": "TA_[YYYY]",
+        "TD_YYYY": "TD_[YYYY]",
+        "WC_YYYY": "WC_[YYYY]",
+        "TD_div_TA_YYYY": "TD/TA_[YYYY]",
+        "WC_div_TA_YYYY": "WC/TA_[YYYY]",
+        "EBITDA_div_TA_YYYY": "EBITDA/TA_[YYYY]",
+        "lnTA_YYYY": "ln(TA)_[YYYY]",
+        "isFamiliar": "isFamiliar"
     },
     "years": [
         2021,

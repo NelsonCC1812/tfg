@@ -4,40 +4,43 @@
         "Sociedad limitada": "familiar",
         "Sociedad limitada unipersonal": "familiar",
         "Sociedad anónima unipersonal": "familiar",
-        "Sociedad cooperativa valenciana": "non_familiar",
         "Sociedad agraria de transformación": "non_familiar",
         "Sociedad cooperativa": "non_familiar",
+        "Sociedad cooperativa de castilla la mancha": "non_familiar",
+        "Sociedad cooperativa valenciana": "non_familiar",
         "Sociedad cooperativa gallega": "non_familiar",
         "Sociedad cooperativa aragonesa": "non_familiar",
-        "Sociedad cooperativa de castilla la mancha": "non_familiar",
+        "Sociedad cooperativa catalana": "non_familiar",
+        "Sociedad cooperativa riojana": "non_familiar",
+        "Sociedad cooperativa Navarra": "non_familiar",
+        "Sociedad cooperativa extremea": "non_familiar",
         "Sociedad limitada laboral": "familiar",
         "Sociedad anónima laboral": "non_familiar",
         "Otros tipos no definidos": "-",
         "Sociedad civil": "familiar"
     },
     "independence_indicators": {
-        "A+": "family",
-        "A": "family",
-        "A-": "family",
-        "B+": "family",
-        "B": "family",
-        "B-": "family",
-        "C+": "family",
-        "C": "family",
-        "C-": "family",
-        "D": "family",
+        "A+": "familiar",
+        "A": "familiar",
+        "A-": "familiar",
+        "B+": "familiar",
+        "B": "familiar",
+        "B-": "familiar",
+        "C+": "familiar",
+        "C": "familiar",
+        "C-": "familiar",
+        "D": "familiar",
         "U": "unknown",
         "-": "unknown"
     },
-    "accionista__tipo_familiar": [
-        "Una o más personas físicas o familias",
-        "Empresa"
-    ],
-    "accionista__tipo_no_familiar": [
-        "Fondos mutuos & de pensiones/Nominee/Trust/Trustee",
-        "Banco",
-        "Fundaciones/Institutos de investigación",
-        "Seguro",
-        "Firmas Private Equity"
-    ]
+    "accionista_tipo": {
+        "Una o más personas físicas o familias": "familiar",
+        "Empresa": "familiar",
+        "Fondos mutuos & de pensiones/Nominee/Trust/Trustee": "non_familiar",
+        "Banco": "non_familiar",
+        "Fundaciones/Institutos de investigación": "non_familiar",
+        "Seguro": "non_familiar",
+        "Firmas Private Equity": "non_familiar",
+        "Empresa financiera": "unknown"
+    }
 }
