@@ -176,8 +176,11 @@
         "ganancias_retenidas_div_activos_total_YYYY": "ganancias retenidas/Activos total [YYYY]",
         "ganancias_antes_de_impuestos_e_intereses_div_activos_total_YYYY": "ganancias antes de impuestos e intereses/activos total [YYYY]",
         "capitalizacion_bursatil_div_pasivo_total_YYYY": "capitalización bursátil/pasivo total [YYYY]",
+        "resultado_ejercicio_YYYY": "Resultado del Ejercicio\nEUR\n[YYYY]",
         "ventas_div_activos_total_YYYY": "ventas/activo total [YYYY]",
+        "ganancias_retenidas_YYYY": "Ganancias retenidas [YYYY]",
         "total_activo_YYYY": "Total Activo\nEUR\n[YYYY]",
+        "total_pasivo_YYYY": "Pasivo total [YYYY]",
         "TA_YYYY": "Total Activo\nEUR\n[YYYY]",
         "TD_YYYY": "TD_[YYYY]",
         "WC_YYYY": "WC_[YYYY]",
@@ -191,7 +194,10 @@
         "zX3_YYYY": "Z X3 [YYYY]",
         "zX4_YYYY": "Z X4 [YYYY]",
         "zX5_YYYY": "Z X5 [YYYY]",
-        "z_YYYY": "Z [YYYY]"
+        "z_YYYY": "Z [YYYY]",
+        "z_zone_green_YYYY": "Z Green Zone [YYYY]",
+        "z_zone_grey_YYYY": "Z Grey Zone [YYYY]",
+        "z_zone_red_YYYY": "Z Red Zone [YYYY]"
     },
     "years": [
         2021,

@@ -21,3 +21,4 @@ $Z = 0.717*KF + 0.847*KI + 3.107*KL + 0.42*KO + 0.998*KR$
 * `L`: EBIT
 * `AM`: Patrimonio neto EUR 2021
 * `BZ`: Importe neto de la cifra de negocios EUR 2021
+* `BW`: Pasivo no corriente
