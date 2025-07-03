@@ -1,0 +1,8 @@
+{
+    "TD_div_TA": "TD/TA [YYYY]",
+    "WC_div_TA": "WC/TA [YYYY]",
+    "EBITDA_div_TA": "EBITDA/TA [YYYY]",
+    "lnTA": "ln(TA) [YYYY]",
+    "isFamiliar": "isFamiliar",
+    "z_cat": "Z Cat [YYYY]"
+}
