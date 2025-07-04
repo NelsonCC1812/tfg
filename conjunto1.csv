@@ -1,0 +1,5 @@
+,accuracy,f1_score,precision,recall,specificity,roc_auc
+LOGIT,0.814 (0.025),nan (nan),nan (nan),nan (nan),nan (nan),nan (nan)
+RFC,0.837 (0.033),nan (nan),nan (nan),nan (nan),nan (nan),nan (nan)
+KNN,0.666 (0.049),nan (nan),nan (nan),nan (nan),nan (nan),nan (nan)
+SVM,0.813 (0.029),nan (nan),nan (nan),nan (nan),nan (nan),nan (nan)
