@@ -7,3 +7,5 @@ Los criterios que estamos siguiendo a la hora dde filtrar los datos son:
 * Años con cuentas disponibles: 2023, 2022, 2021 (No incluimos el año 2024 pese a que interesaría tenerlo porque la mayoria todavía no han presentado las cuentas y nos faltarian datos)
 * Aquellas empresas en las que un <=50% de los accionistas son extrangeros, debido a la falta de informacion
 * Resultado de explotacion de todos los años conocidos como minimo conocido (2023,2022,2021)
+
+*Vamos a elegir años 2022 -> 2024 para evitar la intereferencia del COVID en los datos*

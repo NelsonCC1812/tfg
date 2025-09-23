@@ -179,9 +179,9 @@
         "resultado_ejercicio_YYYY": "Resultado del Ejercicio\nEUR\n[YYYY]",
         "ventas_div_activos_total_YYYY": "ventas/activo total [YYYY]",
         "ganancias_retenidas_YYYY": "Ganancias retenidas [YYYY]",
-        "total_activo_YYYY": "Total Activo\nEUR\n[YYYY]",
+        "total_activo_YYYY": "Total activo\nEUR\n[YYYY]",
         "total_pasivo_YYYY": "Pasivo total [YYYY]",
-        "TA_YYYY": "Total Activo\nEUR\n[YYYY]",
+        "TA_YYYY": "Total activo\nEUR\n[YYYY]",
         "TD_YYYY": "TD [YYYY]",
         "WC_YYYY": "WC [YYYY]",
         "TD_div_TA_YYYY": "TD/TA [YYYY]",
@@ -198,8 +198,7 @@
         "z_cat_YYYY": "Z Cat [YYYY]"
     },
     "years": [
-        2021,
         2022,
-        2023
+        2024
     ]
 }
