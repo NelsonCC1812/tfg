@@ -11,8 +11,8 @@
 | 3 ffu  | [convert-ffu.ipynb](scripts/convert-ffu.ipynb)                              | [filtered.xlsx](data/processed/filtered.xlsx)         | [filtered-ffu.xlsx](data/processed/filtered-ffu.xlsx) | Apply ffu concept                          |
 | 3 nfv  | [convert-nfv.ipynb](scripts/convert-nfv.ipynb)                              | [filtered.xlsx](data/processed/filtered.xlsx)         | [filtered-nfv.xlsx](data/processed/filtered-nfv.xlsx) | Apply nfv concept                          |
 |   4    | [reorder_data.ipynb](scripts/reorder_data.ipynb)                            | [filtered.xlsx](data/processed/filtered.xlsx)         | [product.xlsx](data/product/product.xlsx)             | Reorder the data to feed the ia            |
-| 4 ffu  | [reorder_data-ffu.ipynb](scripts/reorder_data-ffu.ipynb)                    | [filtered-ffu.xlsx](data/processed/filtered-ffu.xlsx) | [product-ffu.xlsx](data/product/product-ffu.xlsx)     | Reorder the data to feed the ffu ia        |
-| 4 nfv  | [reorder_data-nfv.ipynb](scripts/reorder_data-nfv.ipynb)                    | [filtered-nfv.xlsx](data/processed/filtered-nfv.xlsx) | [product-nfv.xlsx](data/product/product-nfv.xlsx)     | Reorder the data to feed the nfv ia        |
+| 4 ffu  | [reorder_data.ipynb](scripts/reorder_data-ffu.ipynb)                        | [filtered-ffu.xlsx](data/processed/filtered-ffu.xlsx) | [product-ffu.xlsx](data/product/product-ffu.xlsx)     | Reorder the data to feed the ffu ia        |
+| 4 nfv  | [reorder_data.ipynb](scripts/reorder_data-nfv.ipynb)                        | [filtered-nfv.xlsx](data/processed/filtered-nfv.xlsx) | [product-nfv.xlsx](data/product/product-nfv.xlsx)     | Reorder the data to feed the nfv ia        |
 |   ai   | [aicode.ipynb](aicode/aicode.ipynb)                                         | [product.xlsx](data/product/product.xlsx)             | -                                                     | The ia                                     |
 | ai ffu | [filtered_familiar_unknowns.ipynb](aicode/filtered_familiar_unknowns.ipynb) | [product-ffu.xlsx](data/product/product-ffu.xlsx)     | -                                                     | The nfv ia                                 |
 | ai nfv | [no_familiar_var.ipynb](aicode/no_familiar_var.ipynb)                       | [product-nfv.xlsx](data/product/product-nfv.xlsx)     | -                                                     | The nfv ia                                 |
@@ -20,3 +20,5 @@
 
 > **ffu** (Filtered Familiar Unknowns): Filter rows with the `isFamiliar` value `unknown`.  
 > **nfv** (No Familiar Var): Remove `isFamiliar` column from the data.
+
+![](calculated2ai.xcdw.png)

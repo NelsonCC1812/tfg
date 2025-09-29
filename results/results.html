@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .innClass tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+
+
+        .innClass td {
+            padding: .5rem .2rem;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            margin-top: 3rem;
+            text-align: center;
+            max-width: 30%;
+        }
+
+        .card h4 {
+            font-size: 2rem;
+
+            margin: .5rem;
+            margin-top: 5rem;
+        }
+
+        td:nth-child(1),
+        th:not(:first-child) {
+            background-color: #ccc;
+        }
+
+        td {
+            border-right: 1px solid black;
+        }
+
+
+
+        @media (max-width:1300px) {
+            main {
+                flex-direction: column;
+            }
+
+            .card {
+                text-align: center;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="card">
+            <h4>Standard</h4>
+            <img src="aicode.png" alt="">
+            <div id="standard"></div>
+        </div>
+
+
+        <div class="card">
+            <h4>FFU</h4>
+            <img src="aicode-ffu.png" alt="">
+            <div id="ffu"></div>
+        </div>
+
+
+        <div class="card">
+            <h4>NFU</h4>
+            <img src="aicode-nfv.png" alt="">
+            <div id="nfu"></div>
+        </div>
+
+    </main>
+
+</body>
+
+<script>
+
+    const cols = ["standard", "ffu", "nfu"]
+
+    const genTable = (id, csv) => {
+
+
+        const rows = csv.trim().split('\n');
+        const table = document.createElement(`${id}`);
+        table.classList.add('innClass')
+        table.border = '1';
+
+        rows.forEach((fila, index) => {
+            const cols = fila.split(',');
+            const rowHTML = document.createElement('tr');
+
+            cols.forEach(col => {
+                const cell = document.createElement(index === 0 ? 'th' : 'td');
+                cell.textContent = col.trim();
+                rowHTML.appendChild(cell);
+            });
+
+            table.appendChild(rowHTML);
+        });
+
+        document.querySelector(`#${id}`).appendChild(table);
+    }
+
+    Promise.all([fetch("aicode.csv"), fetch("aicode-ffu.csv"), fetch("aicode-nfv.csv")])
+        .then(res => Promise.all(res.map(elm => elm.text())))
+        .then(res => {
+
+            for (let i = 0; i <= cols.length; i++) genTable(cols[i], res[i])
+        })
+
+</script>
+
+</html>
