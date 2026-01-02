@@ -1,7 +1,3 @@
-Vinito con Z
-
-Respecto a **2021**
-
 $Z = 0.717*KF + 0.847*KI + 3.107*KL + 0.42*KO + 0.998*KR$
 
 * `KF`: capital circulante / activo total $(CI - AY)/(CI + R)$
